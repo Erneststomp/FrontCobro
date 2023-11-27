@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+.App {
+  text-align: center;
+  padding: 0;
+  overflow: hidden;
+  color: var(--black); 
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+:root
+{
+  --Black:#000000;
+  --Blue:#079eda;
+  --Red:#d81919;
+  --White:#ffffff;
+  --DarkRed: #862741;
+  --Lila: #bda1eb;
+  --DarkLila: #5b2da5;
+  --Rosa: #f8b8ed;
+  --ShadowBlack:0px 7px 24px 3px rgb(0, 0, 0);
+  --ShadowBlue:0px 7px 24px 3px rgba(66, 64, 184, 0.4);
+  --ShadowRed:0px 7px 24px 3px rgba(184, 64, 64, 0.4);
+  --ShadowLila:0px 7px 24px 3px rgba(189,161,235, 0.4);
+  --BlueGradient:linear-gradient(180deg, var(--Red) 0%, var(--Rosa) 35%);
+  --RedGradient:linear-gradient(180deg, var(--Lila) 0%, var(--Rosa) 65%);
+  --LilaGradient:radial-gradient(circle, rgba(248,184,237,1) 0%, rgba(189,161,235,1) 100%);
+  --LilaGradient2:linear-gradient(rgba(248,184,237,1) 50%, rgba(189,161,235,1) 100%);
+}
+

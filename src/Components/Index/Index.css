@@ -1,0 +1,20 @@
+
+/* Estilos para el contenedor principal */
+.Main-div {
+    text-align: center; /* Centra todo el contenido horizontalmente */
+    padding-top: 0px; /* Espacio alrededor del contenido */
+    height: 100px;
+
+  }
+  
+  /* Estilos para el título */
+  .Main-div h1 {
+    margin-bottom: 20px; /* Espacio debajo del título */
+  }
+  
+  /* Estilos para la imagen */
+  .Main-div img {
+    max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+  }
+  

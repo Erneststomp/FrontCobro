@@ -1,0 +1,31 @@
+/* Estilo para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  /* Estilo para las celdas del encabezado */
+  th {
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Estilo para las celdas de datos */
+  td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Estilo para las filas impares (opcional) */
+  tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+.Main-div{
+    display: flex;
+    flex-direction: column;
+}

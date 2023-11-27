@@ -1,0 +1,102 @@
+.Nav-Full{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 1rem;
+}
+.Nav-Blur{
+    Background: var(--LilaGradient);
+    position: absolute;
+    height: 10vh;
+    z-index: -1;
+    width: 100%;
+    left: -2rem;
+    filter: blur(50px);
+}
+.Nav-Left{
+    flex:1;
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    padding-left: 1rem;
+}
+.Nav-Name{
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--DarkRed);
+}
+.Nav-Right{
+    display: flex;
+    font-weight: 200;
+    padding-right: 1rem;
+}
+
+.Nav-List-Style{
+    list-style-type: none;
+    font-size: 1.5rem;
+    align-items: center;
+}
+ul{
+    display: flex;
+    gap: 1.5rem;
+    padding-right: 0;
+    margin-right: 0;
+    padding-top: 1rem;
+    
+}
+
+.Conejo{
+    height: 3rem;
+}
+.Nav-Text{
+    color: var(--DarkLila);
+}
+.Nav-Text:hover{
+    cursor: pointer;
+    color:var(--DarkRed);
+}
+
+@media screen and (max-width: 991px){
+    .Conejo{
+        height: 2rem;
+    }
+    .Nav-Name{
+        font-size: 2rem;
+    }
+    .Nav-Left{
+        gap: .5rem;
+    }
+    .Nav-List-Style{
+        font-size: 1rem;
+        align-items: center;
+        margin-left: 0% !important;
+    }
+    .Nav-List{
+        flex: 10;
+    }
+    .Nav-Text{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+    }
+}
+
+button{
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+
+button:hover{
+    border-radius: 10px;
+    background-color: var(--DarkRed);
+    color: white;
+    border-color: var(--DarkRed);
+}
+
+.Nav-Textlog{
+    color: var(--DarkLila);
+}
+button:hover link, button:hover a {
+    color: white;
+}
